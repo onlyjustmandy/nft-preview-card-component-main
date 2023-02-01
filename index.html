@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!--Fontes do Google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!--Meu CSS-->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <main>
+    <article class="nft">
+      <picture class="nft__img">
+        <img src="images/image-equilibrium.jpg" alt="Cubo translúcido com um fundo em azul">
+        <div class="nft__overlay">
+          <img src="images/icon-view.svg">
+        </div>
+      </picture>
+
+      <div class="nft__conteúdo">
+        <a class="nft__titulo">Equilibrium #3429</a>
+        <p class="nft__descricao">Our Equilibrium collection promotes balance and calm.</p>
+        <div class="flex-group">
+          <div class="nft__preço">
+            <img src="images/icon-ethereum.svg">
+            <p>0.041 ETH</p>
+          </div>
+          <div class="nft__data">
+            <img src="images/icon-clock.svg">
+            <p>3 days left</p>
+          </div>
+        </div>
+        <hr>
+        <div class="nft__autor">
+          <img src="images/image-avatar.png">
+          <p> Creation of <span>Jules Wyvern</span></p>
+        </div>
+
+      </div>
+    </article>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/onlyjustmandy">Just Mandy</a>.
+  </div>
+</body>
+
+</html>
